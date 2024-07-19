@@ -1,5 +1,11 @@
+import ThemeToggleButton from '../components/ThemeToggleButton';
+
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <div>
+      <ThemeToggleButton />
+    </div>
+  );
 };
 
 export default Footer;

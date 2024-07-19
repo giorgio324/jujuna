@@ -3,7 +3,7 @@ import MobileMenu from '../components/MobileMenu';
 
 const Header = () => {
   return (
-    <div className='bg-backgroundColor-backgroundCol px-6'>
+    <div className='bg-backgroundColor-backgroundCol dark:bg-backgroundColor-dark-backgroundCol px-6'>
       <nav className='h-[96px] flex justify-between items-end pb-3'>
         <Logo />
         <MobileMenu />
