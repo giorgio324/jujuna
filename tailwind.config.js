@@ -8,6 +8,9 @@ export default {
         arialgeo: ['"Arial GEO"', 'sans-serif'],
         tommaso: ['"ALK Tommaso"', 'sans-serif'],
       },
+      backgroundImage: {
+        'gradient-purple': 'linear-gradient( #A583D1, #724AA4, #1E122E)',
+      },
       colors: {
         backgroundColor: {
           purpleStart: '#A583D1',
