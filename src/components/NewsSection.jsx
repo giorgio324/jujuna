@@ -24,8 +24,9 @@ const NewsSection = ({ id }) => {
       text: 'ჩვენი ღვინო, ჯაზის მუსიკა, კომფორტული საღამო. გაატარეთ დაუვიწყარი საღამო ჩვენთან ერთად',
     },
   ];
+
   return (
-    <section id={id}>
+    <section id={id} className='py-6 md:py-12'>
       <div className='flex flex-col gap-5 px-8'>
         <SectionTitle textDark>სიახლეები</SectionTitle>
         <div className='flex flex-wrap gap-2'>
