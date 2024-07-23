@@ -4,7 +4,6 @@ const Navbar = ({ links }) => {
     const targetElement = document.getElementById(path);
     if (targetElement) {
       targetElement.scrollIntoView({ behavior: 'smooth' });
-      closeNavbar();
     }
   };
   return (
