@@ -5,7 +5,7 @@ import desktopBottle from '/images/bottleDesktop.png';
 const HomeSection = ({ id }) => {
   return (
     <section
-      className='h-[600px] md:h-[740px] bg-gradient-purple relative'
+      className='h-[600px] md:h-[720px] bg-gradient-purple relative'
       id={id}
     >
       <div className='px-8 z-10'>
